@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.venv
+venv/
+env/
+*.egg
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert/
+*.ipynb_convert/
+
+# Data & outputs
+runs/
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.h5
+
+# Logs
+*.log
+logs/
+wandb/
+mlruns/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# UV / Pip / Dependencies
+uv.lock
+pip-wheel-metadata/
+
+# TensorBoard event files (if you don't want them tracked)
+events.out.tfevents.*
